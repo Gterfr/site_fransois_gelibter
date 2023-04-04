@@ -1,0 +1,76 @@
+
+
+@import url("components/banner.css");
+ 
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body {
+font-family: Arial, sans-serif;
+line-height: 1.6;
+}
+
+header {
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 15px;
+}
+
+header h1 {
+font-size: 30px;
+}
+
+main {
+display: flex;
+justify-content: center;
+}
+
+.athlete-section {
+flex: 1;
+padding: 30px;
+background-color: #f4f4f4;
+text-align: center;
+border: 1px solid #ddd;
+}
+
+.athlete-section h2 {
+font-size: 25px;
+margin-bottom: 15px;
+}
+
+.athlete-section img {
+width: 100%;
+height: auto;
+max-width: 300px;
+margin-bottom: 15px;
+}
+
+.athlete-section p {
+font-size: 15px ;
+text-align: justify;
+}
+.athlete-section img{
+	max-height: 220px;
+	object-fit: contain;
+	;
+}
+header{ font-size:30px }
+
+
+@media (max-width:500px) {
+	
+	.athlete-section {
+		width: 400px;
+		
+	}
+} 
+@media(max-width:800px){
+
+	.athlete-section {
+		width:700px;
+	}
+}
